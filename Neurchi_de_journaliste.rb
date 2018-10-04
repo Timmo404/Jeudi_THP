@@ -91,9 +91,9 @@ def alphabetical(journalist)
 end
 #Menu
 def menu_q(journalist)
-	part = ["1--Combien y a t'il de journalistes dans cet array ?","2--Combien d'handle contiennent un numéro ?","3--Combien d'handle contiennent les 4 lettres du prénom 'Aude' à la suite (sans faire attention à la casse) ?","4--Combien commencent par une majuscule ?","5--Combien contiennent une majuscule ?","6--Combien de _ dans tous les pseudos confondus ?","7--Trie la liste de handle par ordre alphabétique"]
-	puts "Que voulez vous faire ?"
-	puts part
+	part = ["1- Combien y a t'il de journalistes dans le tableau ?","2- Combien d'adresse contiennent un numéro ?","3- Combien d'adresse contiennent les 4 lettres du prénom 'Aude' à la suite (sans faire attention à la casse) ?","4- Combien commencent par une majuscule ?","5- Combien contiennent une majuscule ?","6- Combien de _ dans tous les pseudos confondus ?","7- Trie la liste de handle par ordre alphabétique"]
+	puts '-'*73+"\n"+"-"*1+" Voici la liste des twittos/journalistes orbitants autour de la chine. "+"-"*1+"\n"+'-'*24+" Que voulez vous faire ? "+'-'*24+"\n"+'-'*73
+	puts part << "-"*45+"\nChoisissez entre 1 et 7\n"+"-"*45
 	answer1=gets.chomp.to_i
 
 	if answer1 > 0 && answer1 < 8
