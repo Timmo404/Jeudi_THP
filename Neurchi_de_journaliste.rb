@@ -40,7 +40,7 @@ def letter_search(journalist)
 	puts nb
 end
 
-#Combien de majuscule
+#Combien commence par une majuscule
 def howmany_upper_case(journalist)
 	n=0
 	nb=0
@@ -53,7 +53,7 @@ def howmany_upper_case(journalist)
 	end
 	puts nb
 end
-
+#Combien ont des majuscule
 def numbers_of_upC(journalist)
 	n=0
 	nb=0
@@ -68,7 +68,7 @@ def numbers_of_upC(journalist)
 	end
 	puts nb
 end
-
+#nombre de dash
 def numbers_of_dash(journalist)
 		n=0
 		nb=0
@@ -85,7 +85,7 @@ def numbers_of_dash(journalist)
 
 end
 
-
+#ordre alphabetique
 def alphabetical(journalist)
 	puts journalist.sort
 end
